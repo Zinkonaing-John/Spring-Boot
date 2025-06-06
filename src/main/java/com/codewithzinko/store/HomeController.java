@@ -12,7 +12,6 @@ public class HomeController {
 
     @RequestMapping("/")
     public String index() {
-
         System.out.println("appName: " + appName);
         return "index.html";
     }
